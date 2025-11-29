@@ -61,6 +61,17 @@ button {
   z-index: 10;
 }
 
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  .textoNovios {
+    top: 19%;
+  }
+
+  .textoPortada {
+    top: 10%;
+    font-size: 40px;
+  }
+}
+
 .textoNovios p {
   font-family: "Great Vibes", cursive;
 }
